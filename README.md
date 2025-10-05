@@ -7,25 +7,26 @@
 5. 후원: 포티투마루(42MARU)
 6. 운영: 데이콘
 
-# 대회 안내
+## 대회 안내
 - [인하대 인공지능융합연구센터](https://aix.inha.ac.kr/?page_id=1282&vid=81)
 - [Dacon](https://dacon.io/competitions/official/236291/overview/description)
 
-# 대회 규칙
+## 대회 규칙
 
 - 평가 산식 : F1 Score
 - 평가 방식: 정량 평가(100%)
 - 단일 GPU VRAM(48GB)에서 모델이 작동 가능해야함
 - 이 외의 규칙 [대회 공식 홈페이지](https://dacon.io/competitions/official/236291/overview/rules) 참고
 
-# 대회 결과
+## 대회 결과
+<img width="1488" height="436" alt="image" src="https://github.com/user-attachments/assets/8ed4fc8c-5442-4c0f-a5b5-381c78436044" />
 
 - **전체 2등** (학부생 트랙 2등)
 - **최종 점수:** `0.90252` [데이콘 리더보드](https://dacon.io/competitions/official/236291/leaderboard)
 - **대회 결과 공지:** [대회 결과 공지](https://aix.inha.ac.kr/?page_id=3841&vid=30)
 - **기사 링크:** [대학저널 기사](https://dhnews.co.kr/news/view/1065575539326139)
 
-# Dataset Info.
+## Dataset Info.
 ※ 데이터셋 파일은 대회 규정상 공개할 수 없습니다.
 - **train.csv**  
     id : 샘플 고유 ID  
@@ -69,7 +70,7 @@
 <p align="center"><b>&lt;test.csv 예시&gt;</b></p>
 
 
-# 코드 실행 방법
+## 코드 실행 방법
 
 - 실행 환경: colab A100
 
@@ -101,7 +102,7 @@
 - 실행 도중 `/content` 경로에 생기는 `eeve_submission.csv`, `gemma2_submission.csv`, `nous_submission.csv` 3개의 파일은 각 모델의 추론 파일이고
 최종 제출용 파일은 '/content' 경로 아래에 생기는 ensemble_final.csv 파일
 
-# 모델 선정
+## 모델 선정
 - 파인튜닝 전 모델별 F1 score 비교
   
 <div align="center">
@@ -134,7 +135,7 @@
   `NousResearch/Nous-Hermes-2-SOLAR-10.7B`  
   `yanolja/EEVE-Korean-Instruct-10.8B-v1.0`  
 
-# 앙상블
+## 앙상블
 
 **앙상블 사용 이유**
 
